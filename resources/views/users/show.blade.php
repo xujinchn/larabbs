@@ -30,6 +30,7 @@
                 <div class="panel-body">
                 <span>
                     <h1 class="panel-title pull-left" style="font-size:30px;">{{ $user->name }} <small>{{ $user->email }}</small></h1>
+
                 </span>
                 </div>
             </div>
@@ -45,3 +46,4 @@
         </div>
     </div>
 @stop
+

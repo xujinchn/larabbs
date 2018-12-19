@@ -31,7 +31,6 @@
                     <div class="form-group">
                         <label for="" class="avatar-label">用户头像</label>
                         <input type="file" name="avatar">
-
                         @if($user->avatar)
                             <br>
                             <img class="thumbnail img-responsive" src="{{ $user->avatar }}" width="200" />
